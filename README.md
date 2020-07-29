@@ -1,4 +1,4 @@
-## Project Description This project to get familiar with SQL and Python.
+Project Description This project to get familiar with SQL and Python.
 # Postman Screenshot of Professor's Code Working
 
 
