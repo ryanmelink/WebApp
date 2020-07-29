@@ -1,9 +1,9 @@
 {% extends "layout.html" %}
 {% block content %}
-<form action="/edit/{{city.id}}" method="post">
+<form action="/edit/{{grade.id}}" method="post">
     <div class="row">
         <div class="col">
-            <label for="fldName">City Name</label>
+            <label for="fldName">Grade</label>
             <input id="fldName" type="text" class="form-control" placeholder="City Name" name="fldName" value="{{city.fldName}}">
         </div>
         <div class="col">
