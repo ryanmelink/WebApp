@@ -19,14 +19,14 @@
     {% for city in grades %}
     <tr>
         <td><a href="view/{{grade.id}}">{{ grade.fldLastName }}</a></td>
-        <td>{{ city.fldFirstName }}</td>
-        <td>{{ city.fldSSN }}</td>
-        <td>{{ city.fldTest1 }}</td>
-        <td>{{ city.fldTest2 }}</td>
-        <td>{{ city.fldTest3 }}</td>
-        <td>{{ city.fldTest4 }}</td>
-        <td>{{ city.fldFinal }}</td>
-        <td>{{ city.fldGrade }}</td>
+        <td>{{ grade.fldFirstName }}</td>
+        <td>{{ grade.fldSSN }}</td>
+        <td>{{ grade.fldTest1 }}</td>
+        <td>{{ grade.fldTest2 }}</td>
+        <td>{{ grade.fldTest3 }}</td>
+        <td>{{ grade.fldTest4 }}</td>
+        <td>{{ grade.fldFinal }}</td>
+        <td>{{ grade.fldGrade }}</td>
     </tr>
     {% endfor %}
     </tbody>

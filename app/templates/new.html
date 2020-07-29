@@ -1,42 +1,42 @@
 {% extends "layout.html" %}
 {% block content %}
-<form action="/cities/new" method="POST">
+<form action="/grades/new" method="POST">
     <div class="row">
         <div class="col">
-            <label for="fldName">City Name</label>
-            <input id="fldName" type="text" class="form-control" placeholder="City Name" name="fldName">
+            <label for="fldLastName">Last Name</label>
+            <input id="fldLastName" type="text" class="form-control" placeholder="Last Name" name="fldLastName">
         </div>
         <div class="col">
-            <label for="fldAbbreviation">City Abbreviation</label>
-            <input id="fldAbbreviation" t ype="text" class="form-control" placeholder="City Abbreviation"
-                   name="fldAbbreviation">
+            <label for="fldTest2">Test 2</label>
+            <input id="fldTest2" type="text" class="form-control" placeholder="Test 2"
+                   name="fldTest2">
         </div>
         <div class="col">
-            <label for="fldCountry">City Country</label>
-            <input id="fldCountry" type="text" class="form-control" placeholder="City Country" name="fldCountry">
+            <label for="fldTest1">Test 1</label>
+            <input id="fldTest1" type="text" class="form-control" placeholder="Test 1" name="fldTest1">
         </div>
     </div>
 
     <div class="row">
         <div class="col">
-            <label for="fldLat">City Latitude</label>
-            <input id="fldLat" type="text" class="form-control" placeholder="City Latitude" name="fldLat">
+            <label for="fldFirstName">First Name</label>
+            <input id="fldFirstName" type="text" class="form-control" placeholder="First Name" name="fldFirstName">
         </div>
         <div class="col">
-            <label for="fldlong">City Longitude</label>
-            <input id="fldlong" type="text" class="form-control" placeholder="City Longitude" name="fldLong">
+            <label for="fldSSN">SSN</label>
+            <input id="fldSSN" type="text" class="form-control" placeholder="SSN" name="fldSSN">
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <label for="fldCapitalStatus">Capital Status</label>
+            <label for="fldTest3">Test 3</label>
 
-            <input id="fldCapitalStatus" type="text" class="form-control" placeholder="Capital Status "
-                   name="fldCapitalStatus">
+            <input id="fldTest3" type="text" class="form-control" placeholder="Test 3"
+                   name="fldTest3">
         </div>
         <div class="col">
-            <label for="fldPopulation">City Population</label>
-            <input id="fldPopulation" type="text" class="form-control" placeholder="Population" name="fldPopulation">
+            <label for="fldTest4">Test 4</label>
+            <input id="fldTest4" type="text" class="form-control" placeholder="Test 4" name="fldTest4">
         </div>
     </div>
     <button type="submit" class="btn btn-success">Create</button>
